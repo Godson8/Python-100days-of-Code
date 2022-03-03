@@ -29,8 +29,6 @@ for number_of_numbers in range(0, nr_numbers):
 # Hard Level - Order of characters randomised:
 password_list = list(password)
 # print(password_list)
-# for characters in range(0, len(password)):
-#     password[random.randint(0, len(password) - 1)]
 random.shuffle(password_list)
 # print(password_list)
 final_password = "".join(password_list)
